@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+  color: yellow;
+}
+
+.timer {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  width: 50%;
+  top: 30%;
+  left: 25%;
+  position: absolute;
+}
+.field {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 30px;
+}
+.value {
+  border: 2px solid;
+  margin: 30px;
+  padding: 30px 15px;
+  font-size: 170px;
+}
+.label {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 40px;
+}
